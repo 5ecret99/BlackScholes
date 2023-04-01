@@ -10,3 +10,8 @@ pub fn option_price(
 ) -> f64
 ```
 because of my recent read of the "When genius failed" book i decided to make a simple black_scholes calculator function in rust despite being an already made crate for it (https://docs.rs/black_scholes/latest/black_scholes/) feel free to include my function in your project if you feel is more suitable for your needs.
+
+You can see my simple test by running
+```linux
+cargo test
+```
